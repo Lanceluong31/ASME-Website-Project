@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+<!--GET or POST-->
+<form action="index.php" method="POST" enctype="multipart/form-data"> 
+
+<!--I guess "label for = " is just for reference I guess" "-->
+    <label for="username"> username!!:</label>
+    <input type="text" id="username" minlength="6" required>
+
+
+    <label for="password">password:</label>
+    <input type="password" id="password" required>
+
+    <label for="email">email:</label>
+    <input type="email" id="email" required>
+
+    <label for="phone">phone #:</label>
+    <input type="tel" id="phone" required>
+
+    <label for="birthday">birthdate:</label>
+    <input type="date" id="birthday" required>
+
+    <label for="quanitity">quanitity:</label>
+    <input type="number" id="quanitity" required>
+
+    <label for="title">title:</label>
+
+    <label for="Mr.">Mr.:</label>
+    <input type="radio" id="Mr." value="Mr." name="title">
+    <label for="Ms.">Ms.:</label>
+    <input type="radio" id="Mr." value="Ms." name="title">
+    <label for="PhD">PhD:</label>
+    <input type="radio" id="Mr." value="Ms." name="title">
+    <br>
+
+    <label for="payment"> payment</label>
+    <select>
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+
+
+    </select>
+    
+    <label for="subscribe">subscribe</label>
+    <input type="checkbox" id="subscribe"><br>
+
+    <label for="comment">comment:</label>
+    <textarea id="comment" rows="3" cols="25"></textarea>
+
+    <label for="file">file:</label>
+    <input type="file" id="file" accept="image/png, image/jpeg">
+
+
+
+    <input type="reset">
+    <input type="submit"> <!--I think this HAS to be submit-->
+</form>
+
+    </body>
+</html>
